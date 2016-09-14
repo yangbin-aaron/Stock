@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/lib_mvp/mvp.iml" filepath="$PROJECT_DIR$/lib_mvp/mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_myutils/myutils.iml" filepath="$PROJECT_DIR$/lib_myutils/myutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_myviews/lib_myviews.iml" filepath="$PROJECT_DIR$/lib_myviews/lib_myviews.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_net_presenter/lib_net_presenter.iml" filepath="$PROJECT_DIR$/lib_net_presenter/lib_net_presenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_network/network.iml" filepath="$PROJECT_DIR$/lib_network/network.iml" />
     </modules>
   </component>

@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/lib_mvp" />
             <option value="$PROJECT_DIR$/lib_myutils" />
             <option value="$PROJECT_DIR$/lib_myviews" />
-            <option value="$PROJECT_DIR$/lib_net_presenter" />
             <option value="$PROJECT_DIR$/lib_network" />
           </set>
         </option>
@@ -23,7 +22,6 @@
             <option value="$PROJECT_DIR$/lib_mvp" />
             <option value="$PROJECT_DIR$/lib_myutils" />
             <option value="$PROJECT_DIR$/lib_myviews" />
-            <option value="$PROJECT_DIR$/lib_net_presenter" />
             <option value="$PROJECT_DIR$/lib_network" />
           </set>
         </option>
