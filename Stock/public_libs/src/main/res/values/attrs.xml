@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义MyActionBar属性-->
+    <declare-styleable name="MyActionBar">
+        <attr name="title_text" format="string"/><!-- 标题text -->
+        <attr name="title_textSize" format="dimension"/><!-- 标题字体大小 -->
+        <attr name="title_textColor" format="color|reference"/><!-- 标题字体颜色 -->
+        <attr name="left_text" format="string"/><!-- 左边text -->
+        <attr name="left_image" format="color|reference"/><!-- 左边图片 -->
+        <attr name="left_textSize" format="dimension"/><!-- 左边字体大小 -->
+        <attr name="left_textColor" format="color|reference"/><!-- 左边字体颜色 -->
+        <attr name="right_text" format="string"/><!-- 右边text -->
+        <attr name="right_image" format="color|reference"/><!-- 右边图片 -->
+        <attr name="right_textSize" format="dimension"/><!-- 右边字体大小 -->
+        <attr name="right_textColor" format="color|reference"/><!-- 右边字体颜色 -->
+        <attr name="bar_backgroundColor" format="color|reference"/><!-- 背景颜色 -->
+    </declare-styleable>
+
+    <!--圆形头像-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+</resources>
