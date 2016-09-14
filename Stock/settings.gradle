@@ -1,1 +1,1 @@
-include ':public_libs', ':s_yqb', ':s_meiniu'
+include ':lib_net_presenter', ':app_yqb', ':lib_myviews', ':lib_myutils', ':lib_network', ':lib_mvp'

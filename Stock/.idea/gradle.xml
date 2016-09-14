@@ -8,17 +8,23 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/public_libs" />
-            <option value="$PROJECT_DIR$/s_meiniu" />
-            <option value="$PROJECT_DIR$/s_yqb" />
+            <option value="$PROJECT_DIR$/app_yqb" />
+            <option value="$PROJECT_DIR$/lib_mvp" />
+            <option value="$PROJECT_DIR$/lib_myutils" />
+            <option value="$PROJECT_DIR$/lib_myviews" />
+            <option value="$PROJECT_DIR$/lib_net_presenter" />
+            <option value="$PROJECT_DIR$/lib_network" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/public_libs" />
-            <option value="$PROJECT_DIR$/s_meiniu" />
-            <option value="$PROJECT_DIR$/s_yqb" />
+            <option value="$PROJECT_DIR$/app_yqb" />
+            <option value="$PROJECT_DIR$/lib_mvp" />
+            <option value="$PROJECT_DIR$/lib_myutils" />
+            <option value="$PROJECT_DIR$/lib_myviews" />
+            <option value="$PROJECT_DIR$/lib_net_presenter" />
+            <option value="$PROJECT_DIR$/lib_network" />
           </set>
         </option>
       </GradleProjectSettings>
