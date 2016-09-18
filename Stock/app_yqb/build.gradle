@@ -1,27 +1,91 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "24.0.0"
-
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    
     defaultConfig {
         applicationId "com.aaron.yqb"
-        minSdkVersion 14
-        targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 11
+        targetSdkVersion 21
+        buildConfigField "boolean","SALES_PACKAGE","true"
+        multiDexEnabled true
     }
+
+    signingConfigs {
+        debug {
+//            storeFile file("../../mntz.jks")
+//            storePassword "123456mntz"
+//            keyAlias "mntz"
+//            keyPassword "123456mntz"
+        }
+        release {
+//            storeFile file("../../mntz.jks")
+//            storePassword "123456mntz"
+//            keyAlias "mntz"
+//            keyPassword "123456mntz"
+        }
+    }
+
     buildTypes {
+        debug {
+        }
+
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
         }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+
+            // eg. name sample is Cainiu_Offical_1.0_3_yyyyMMdd.apk
+            def file = output.outputFile
+            def date = new Date();
+            def formattedDate = date.format('yyMMdd')
+            def fileName = "${variant.productFlavors[0].name}_${variant.productFlavors[1].name}_${variant.versionName}_${formattedDate}.apk"
+            output.outputFile = new File(file.parent, fileName)
+        }
+    }
+
+    productFlavors {
+
+        flavorDimensions "package", "channel"
+
+        mntz {
+            dimension "package"
+            applicationId "com.xjdr.mntz"
+            versionCode 110
+            versionName "1.1.0"
+            manifestPlaceholders = [TENCENT_APP_ID: "tencent1105533564",
+                                    UMENG_APPKEY_VALUE:"577cae7d67e58e0cca001115",
+                                    UMENG_MESSAGE_SECRET_VALUE:"m675tn7bhvshpjpwgvjecegy7flh3fn3"]
+
+        }
+
+        official {
+            dimension "channel"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "mntz_offcial"]
+        }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
     }
 }
 
+
+
 dependencies {
     compile project(':lib_myviews')
+    compile project(':lib_myutils')
+    compile project(':lib_network')
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:21.0.3'
 }
