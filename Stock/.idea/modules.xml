@@ -4,10 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Stock.iml" filepath="$PROJECT_DIR$/Stock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_yqb/app_yqb.iml" filepath="$PROJECT_DIR$/app_yqb/app_yqb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_hfb_pay/lib_hfb_pay.iml" filepath="$PROJECT_DIR$/lib_hfb_pay/lib_hfb_pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_mvp/lib_mvp.iml" filepath="$PROJECT_DIR$/lib_mvp/lib_mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_myutils/lib_myutils.iml" filepath="$PROJECT_DIR$/lib_myutils/lib_myutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_myviews/lib_myviews.iml" filepath="$PROJECT_DIR$/lib_myviews/lib_myviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_pullToRefresh/pullToRefreshLib.iml" filepath="$PROJECT_DIR$/lib_pullToRefresh/pullToRefreshLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util_daogenerator/daogenerator.iml" filepath="$PROJECT_DIR$/util_daogenerator/daogenerator.iml" />
     </modules>
   </component>
 </project>

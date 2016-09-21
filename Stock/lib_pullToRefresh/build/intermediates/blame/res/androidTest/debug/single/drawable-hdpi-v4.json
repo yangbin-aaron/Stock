@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/indicator_arrow.png",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/drawable-hdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_flip.png",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/indicator_arrow.png",
+        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_flip.png",
+        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_flip.png"
+    }
+]

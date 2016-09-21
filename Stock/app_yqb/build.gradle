@@ -56,7 +56,7 @@ android {
 
         mntz {
             dimension "package"
-            applicationId "com.xjdr.mntz"
+            applicationId "com.aaron.yqb"
             versionCode 110
             versionName "1.1.0"
             manifestPlaceholders = [TENCENT_APP_ID: "tencent1105533564",

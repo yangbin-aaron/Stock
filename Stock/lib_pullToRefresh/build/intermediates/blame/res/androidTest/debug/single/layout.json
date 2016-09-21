@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    }
+]
