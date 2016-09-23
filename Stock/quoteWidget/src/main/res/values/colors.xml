@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 键盘标题颜色 -->
+    <color name="KEYBOARD_BUTTON">#FF373737</color>
+    <color name="keyboard_bg">#ff878A88</color>
+    <color name="keyboard_pressed_bg">#ffd2d2d2</color>
+    <color name="keyboard_divider_bg">#ffd3d3d3</color>
+    <!-- listview 背景色 -->
+    <color name="common_list_bg">#ffffffff</color>
+    <color name="common_list_transparent">#00000000</color>
+    <color name="common_list_bg_black">#00000000</color>
+    <color name="common_list_bg_white">#00ff0000</color>
+    <color name="common_list_bg_gold">#b89766</color>
+    <color name="refresh_list_widget_bg">#bdbdbd</color>
+    <!-- listview item 选中时的颜色 -->
+    <color name="common_list_item_select_bg">#aaaaaa</color>
+    <color name="common_list_gradient_end">#e4e4e4</color>
+    <color name="common_list_gradient_start">#e4e4e4</color>
+    <color name="common_list_stroke">#e4e4e4</color>
+    <color name="common_list_fresh_header_font">#cccccc</color>
+    <color name="common_list_fresh_foot_font">#cccccc</color>
+    <!-- moveable listview combining view -->
+    <color name="combining_view_moveable_lv_splite">#ffeaeaea</color>
+    <!-- 综合排名颜色 -->
+    <color name="complex_ranking_name">#666666</color>
+    <color name="complex_ranking_code">#aaaaaa</color>
+    <color name="complex_ranking_stock_red">#e50b10</color>
+    <color name="complex_ranking_stock_green">#00ff00</color>
+    <!-- horizontal scroll view color -->
+    <color name="common_hsv_bg">#ebebeb</color>
+    <color name="common_hsv_red_bg">#ff0000</color>
+    <color name="common_hsv_tv_default">#666666</color>
+    <color name="common_hsv_tv_selected">#e50b10</color>
+    <color name="common_hsv_splite_line_bg">#9b9b9b</color>
+    <color name="common_hsv_splite_line_bg_2">#aaaaaa</color>
+    <color name="rank_tv">#ff494949</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="solid_black">#000000</color>
+    <color name="solid_dim_gray">#ff696969</color>
+    <color name="solid_dark_gray">#ffa9a9a9</color>
+    <color name="title_mid">#ffd1cfd0</color>
+    <color name="solid_yellow_land">#ff8a360f</color>
+    <color name="list_even_line">#ff141514</color>
+    <color name="list_odd_line">#ff080808</color>
+    <color name="textview_link_color">#ff0090ff</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="layout_press">#969696</color>
+    <color name="layout_normal">#242424</color>
+    <color name="transparent">#00000000</color>
+    <!-- common input widget -->
+    <color name="input_content_static_color">#7c7c7c</color>
+    <color name="input_content_static_value_font_color">#000000</color>
+    <color name="trans_comment_content_font_color">#414141</color>
+    <!-- end -->
+    <color name="qw_listview_divider">#ffeaeaea</color>
+    <color name="rank_volume_color">#ff0000ff</color>
+    <color name="CommonLoadingMoreTxtColor">#a4a4a4</color>
+
+    <color name="quote_bar_label">#ff7d7d7d</color>
+    <color name="app_accordion_background">#ffeaeaea</color>
+    <color name="stock_name_color">#ff696969</color>
+    <color name="stock_code_color">#ff8f8f8f</color>
+    <color name="stock_amount_color">#ff828282</color>
+    <color name="stock_price_color">#ffd5d5d5</color>
+    <color name="red">#ffff0000</color>
+    <color name="quote_trend_background_color">#fff8f8f8</color>
+    <color name="app_navi_bar_font_color">#ff494949</color>
+    <color name="app_navi_bar_font_color_selected">#ffe50b10</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="47dip"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txt01"
+        style="@style/QwRankListTextStyle"/>
+
+    <TextView
+        android:id="@+id/txt02"
+        style="@style/QwRankListTextStyle" />
+
+    <TextView
+        android:id="@+id/txt03"
+        style="@style/QwRankListTextStyle" />
+
+    <TextView
+        android:id="@+id/txt04"
+        style="@style/QwRankListTextStyle" />
+
+    <TextView
+        android:id="@+id/txt05"
+        style="@style/QwRankListTextStyle" />
+
+    <TextView
+        android:id="@+id/txt06"
+        style="@style/QwRankListTextStyle" />
+
+</LinearLayout>

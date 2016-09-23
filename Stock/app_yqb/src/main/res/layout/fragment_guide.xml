@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/welcome_bg"
+              android:gravity="center_horizontal"
+              android:paddingTop="50dp"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/guide_one_img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_speed_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_speed_one"
+            android:textColor="@color/red"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_guide_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_one_speed"
+            android:gravity="center_horizontal"
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

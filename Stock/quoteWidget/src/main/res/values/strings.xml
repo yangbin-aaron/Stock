@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">QuoteWidget</string>
+    <string name="keybord_num_enter">确认</string>
+    <string name="keybord_eng_enter">Enter</string>
+    <string name="keybord_delete">删除</string>
+    <string name="keyboard_eng_123">123</string>
+    <string name="keyboard_num_300">300</string>
+    <string name="keyboard_num_600">600</string>
+    <string name="keyboard_num_601">601</string>
+    <string name="keyboard_num_002">002</string>
+    <string name="keyboard_num_000">000</string>
+    <string name="keyboard_num_0">0</string>
+    <string name="keyboard_num_1">1</string>
+    <string name="keyboard_num_2">2</string>
+    <string name="keyboard_num_3">3</string>
+    <string name="keyboard_num_4">4</string>
+    <string name="keyboard_num_5">5</string>
+    <string name="keyboard_num_6">6</string>
+    <string name="keyboard_num_7">7</string>
+    <string name="keyboard_num_8">8</string>
+    <string name="keyboard_num_9">9</string>
+    <string name="keyboard_num_clear">清空</string>
+    <string name="keyboard_num_abc">abc</string>
+    <string name="keyboard_num_hide">隐藏</string>
+    <!-- listview 下拉刷新 -->
+    <!-- 下拉刷新 -->
+    <string name="common_refresh_splite_page_lv_next_pulls_fresh_clew">下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_previous_time_fresh_clew">上次更新</string>
+    <string name="common_refresh_splite_page_lv_release_fresh_clew">松开刷新</string>
+    <string name="common_refresh_splite_page_lv_release_fresh_tag_clew">当前状态，松开刷新</string>
+    <string name="common_refresh_splite_page_lv_pulls_fresh_clew">下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_pulls_fresh_tag_clew">当前状态，下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_refreshing_clew">正在刷新....</string>
+    <string name="common_refresh_splite_page_lv_refreshing_tag_clew">当前状态，正在刷新....</string>
+    <string name="common_refresh_splite_page_lv_last_refresh_clew">最近更新</string>
+    <string name="common_refresh_splite_page_lv_record_position_when_moving_clew">在move时候记录下位置</string>
+    <string name="common_refresh_splite_page_lv_from_release_to_pulls_refresh_clew">由松开刷新状态转变到下拉刷新状态</string>
+    <string name="common_refresh_splite_page_lv_from_release_to_done_clew">由松开刷新状态转变到done状态</string>
+    <string name="PushToRefreshPullLable">拉动去翻页</string>
+    <string name="PushToRefreshReleaseLabel">松开翻页</string>
+    <string name="PushToRefreshReleaseLabel_current_page">当前第</string>
+    <string name="PushToRefreshReleaseLabel_top_turn_to_page">页，松开翻到第</string>
+    <string name="PushToRefreshReleaseLabel_top_turn_page">页，上拉翻页</string>
+    <string name="PushToRefreshReleaseLabel_down_turn_to_page">页，松开翻到第</string>
+    <string name="PushToRefreshReleaseLabel_down_turn_page">页，下拉翻页</string>
+    <string name="PushToRefreshReleaseLabel_page">页</string>
+    <string name="PushToRefreshRefreshingLabel">数据正在加载中....</string>
+    <string name="common_refresh_splite_page_lv_exception_data">查询数据异常！</string>
+    <string name="common_refresh_splite_page_lv_has_last_page_data">已经是最后一页数据了！</string>
+    <string name="common_refresh_splite_page_lv_has_first_page_data">已经是第一页数据了！</string>
+    <string name="PushToRefreshTapLable">tab</string>
+    <!-- 新定义刷新列表 -->
+    <string name="PullDownTurnPage">当前第1页,下拉刷新数据</string>
+    <string name="PullUpTurnPage">当前第1页,上拉翻到第2页</string>
+    <string name="ReleaseDownTurnPage">当前第1页,松开刷新数据</string>
+    <string name="ReleaseUpTurnPage">当前第1页,松开获取第2页数据</string>
+    <string name="LoadingData">正在获取数据,请稍后 &#8230;&#8230;&#8230;</string>
+    <!-- 通用空描述 -->
+    <string name="common_description"></string>
+    <string name="stock_init_value">--</string>
+    <!-- input widget -->
+    <string name="input_content_clew">还可以输入</string>
+    <string name="input_content_clew_40">128</string>
+    <string name="input_content_clew_word">个字符</string>
+    <string name="max_input_length_clew">已满</string>
+    <string name="input_content_clew_word_more">输入内容已超出</string>
+    <string name="share_input_content_hint">请在这里输入要分享的内容</string>
+    <!-- 标记定义 -->
+    <item name="Key_Widget_ScrolListView_Tag" type="id"></item>
+    <item name="Key_Widget_ConvertView_Tag" type="id"></item>
+    <item name="Key_Widget_NavigateView_TextView_Id" type="id"></item>
+    <item name="Key_Widget_NavigateView_ImageView_Id" type="id"></item>
+    <!-- 加载更多控件 -->
+    <string name="CommonLondingMoreRequestDataLable">正在请求数据.....</string>
+    <string name="CommonLoadingMoreLable">加载更多....</string>
+    <string name="CommonLoadingNoMoreDataLable">无更多数据....</string>
+    <string name="CommonLoadingRequestNoDataLable">无数据....</string>
+
+</resources>

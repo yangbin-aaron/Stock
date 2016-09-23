@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lightning_tab"
+            style="@style/ChartTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/ChartTabText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flash_chart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trend_tab"
+            style="@style/ChartTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/ChartTabText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trend_chart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kline_tab"
+            style="@style/ChartTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/ChartTabText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kline_chart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/quotation_tab"
+            style="@style/ChartTab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/ChartTabText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quotation_chart" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

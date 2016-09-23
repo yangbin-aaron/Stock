@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CommonInputWidgetMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/CIWClewLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/CIWLeftClewTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/input_content_clew"
+            android:textColor="@color/input_content_static_color"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/CIWCenterClewTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/input_content_clew_40"
+            android:textColor="@color/input_content_static_value_font_color"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/CIWRightClewTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/input_content_clew_word"
+            android:textColor="@color/input_content_static_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/CIWInputET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="@string/common_description"
+            android:lines="8"
+            android:singleLine="false"
+            android:textColor="@color/trans_comment_content_font_color"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout> 

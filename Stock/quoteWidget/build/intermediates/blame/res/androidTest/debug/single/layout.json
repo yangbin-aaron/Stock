@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qw_scroll_table_list_view_scrolls.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qw_scroll_table_list_view_scrolls.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_input_widget.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_input_widget.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_loading_more_bar.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_loading_more_bar.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/rank_list_moveable_items_block.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/rank_list_moveable_items_block.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qii_widget_kline_landscape.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qii_widget_kline_landscape.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/ranking_item_compsite.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/ranking_item_compsite.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/keyboard_number.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/keyboard_number.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_list_refresh_splite_header.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_list_refresh_splite_header.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/widget_search_view.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/widget_search_view.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/keyboard.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/keyboard.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/simple_list_item.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/simple_list_item.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_loading_more_request_listview_widget.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_loading_more_request_listview_widget.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/rank_list_fix_items_one.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/rank_list_fix_items_one.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qw_scroll_table_list_view_scrolls_head.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qw_scroll_table_list_view_scrolls_head.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_loading_request_widget.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_loading_request_widget.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/rank_list_fix_items_two.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/rank_list_fix_items_two.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/stock_ranking.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/stock_ranking.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qw_widget_search_view.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qw_widget_search_view.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/keyboard_alphabet.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/keyboard_alphabet.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qw_scroll_table_list_view_scrolls_no_refresh.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qw_scroll_table_list_view_scrolls_no_refresh.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_list_refresh_general.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_list_refresh_general.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/common_list_refresh_header.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/common_list_refresh_header.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/qw_scroll_table_list_view_scrolls_content.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/qw_scroll_table_list_view_scrolls_content.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/layout/rank_list_moveable_items_complex.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/layout/rank_list_moveable_items_complex.xml"
+    }
+]

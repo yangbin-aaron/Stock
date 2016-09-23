@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
-        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
-    },
-    {
         "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
         "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
     },
     {
         "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
         "source": "/Users/yangbin/AndroidSpace/Stock/Stock/lib_pullToRefresh/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
-    },
-    {
-        "merged": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
-        "source": "/Users/yangbin/AndroidSpace/thames/cnproject/pullToRefreshLib/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
     }
 ]

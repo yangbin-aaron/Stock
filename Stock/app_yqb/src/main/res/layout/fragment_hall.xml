@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <com.aaron.myviews.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButtonDrawable="@drawable/ic_customer_service"
+        app:backButtonText="@string/customer_service"
+        app:leftPadding="16dp"
+        app:rightDrawable="@drawable/ic_gift"
+        app:rightPaddingRight="17dp"
+        app:title="@string/quotation_hall"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@drawable/divider_product_list"
+        android:dividerHeight="0.7dp"
+        android:headerDividersEnabled="false"
+        android:listSelector="@drawable/list_selector_product"
+        android:overScrollMode="never"
+        android:scrollbars="none"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:id="@+id/tv_account_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_hall_shield"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+</LinearLayout>

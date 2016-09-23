@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LoadingRequestLL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/RefreshLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/RefreshProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/common_page_fresh_progress" />
+
+        <TextView
+            android:id="@+id/RefreshClewTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:text="@string/CommonLondingMoreRequestDataLable"
+            android:textColor="@color/CommonLoadingMoreTxtColor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/RefreshRequestReturnClewTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/CommonLoadingRequestNoDataLable"
+        android:textColor="@color/CommonLoadingMoreTxtColor"
+        android:visibility="gone" />
+
+</LinearLayout>

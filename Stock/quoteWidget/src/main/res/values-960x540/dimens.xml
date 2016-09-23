@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="navigate_bar_height">32dip</dimen>
+    <!-- 梁浩  20 -->
+    <dimen name="scroll_table_item_height">24dip</dimen>
+    <!-- 黄成 47 -->
+    <dimen name="table_item_height">46dip</dimen>
+    <dimen name="navigate_bar_selected_line_height">3dip</dimen>
+
+</resources>

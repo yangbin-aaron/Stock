@@ -88,8 +88,8 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!--<include-->
-        <!--android:id="@+id/layout_pop_hall"-->
-        <!--layout="@layout/layout_hall_advertising"-->
-        <!--android:visibility="gone" />-->
+    <include
+        android:id="@+id/layout_pop_hall"
+        layout="@layout/layout_hall_advertising"
+        android:visibility="gone" />
 </FrameLayout>

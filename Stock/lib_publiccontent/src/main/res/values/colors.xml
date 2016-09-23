@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌主色调 -->
+    <color name="brand_primary">#FA4300</color>
+
+    <color name="transparent_split_line">#EDEDED</color><!-- 默认分割线颜色-->
+    <color name="bg_btn_press">#C70011</color>
+
+    <!-- 页面背景色 -->
+    <color name="page_background">#F8F8F8</color>
+
+    <color name="found_title">#41403E</color>
+    <color name="found_content">#8B8B8B</color>
+    <color name="found_item_cleck">#e5e5e5</color>
+    <color name="text_gray">#FF999999</color>
+    <!-- 分时线Color -->
+    <color name="stock_line_color">#247AD1</color>
+    
+    <!-- gold金色 -->
+    <color name="color_gold">#EAC281</color>
+    <color name="color_half_gold">#88EAC281</color>
+    
+    <color name="red">#ffff0000</color>
+    <color name="pure_white">#FFFFFF</color>
+
+    <color name="app_main_white">#F7F7F7</color>
+    <color name="split_line">#B2B2B2</color><!-- 默认分割线颜色-->
+    <color name="txt_gray">#373635</color>
+    <color name="txt_tint_gray">#A6A6A6</color>
+    <color name="stock_red">#FD2B41</color>
+    <color name="txt_gary2">#808382</color>
+    <color name="txt_gary3">#6E6E6E</color>
+    <color name="txt_gary4">#999999</color>
+    <!--黑色半透明-->
+    <color name="half_transparent_black">#aa151515</color>
+    <color name="half_transparent_black_pop">#c2050505</color>
+    
+    <color name="promoter_orange">#F04822</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_default_bar">#C8C8C8</color>
+    <color name="bg_gray_light">#525252</color>
+
+    <!-- 对话框底部按钮竖向分割线 -->
+    <color name="dialog_vertical_divider">#C70011</color>
+
+    <!--GoldBuyFragment-->
+    <color name="gold_title_gray">#B3B2B3</color>
+    <color name="gold_long_pink">#F2293B</color>
+    <color name="gold_long_orange">#F44302</color>
+    <color name="gold_short_lime">#3ABA42</color>
+    <color name="gold_adapter_line">#2C2B37</color>
+    <color name="gold_color_gray">#6D6D6D</color>
+
+    <!-- 新行情页面配色 -->
+    <color name="red_txt">#Fb0017</color>
+    <color name="green_main">#139865</color>
+    <color name="black_main">#161618</color>
+    <color name="gray_main">#26252A</color>
+    <color name="gray_text">#878787</color>
+    <color name="gray_chart_text">#B3B2B3</color>
+    <color name="gray_split_line">#37363B</color>
+    <color name="red_main">#FF081B</color>
+    <color name="gray_circle">#6D6D6E</color>
+    <color name="gray1">#EFEFEF</color>
+    <color name="gray2">#BFBFBF</color>
+    <color name="gray3">#6A6969</color>
+    <color name="gray_dark">#909090</color>
+    <color name="bg_gray">#F8F8F8</color>
+
+    <!-- 似表单右边边文字浅色色值 -->
+    <color name="form_text_color_light_right">#ccffffff</color>
+
+    <!-- 顶部标题栏背景色 -->
+    <color name="title_bg_color">#FA4300</color>
+
+
+    <color name="yellow_0">#FF9E41</color>
+    <color name="yellow_1">#FF9629</color>
+    <color name="yellow_2">#ff8327</color>
+
+    <color name="red_0">#FF5035</color>
+    <color name="red_1">#FF3816</color>
+    <color name="red_2">#FB0006</color>
+    <color name="red_3">#E02F20</color>
+
+    <color name="gray_light">#DADADA</color>
+    <color name="pure_black">#000000</color>
+
+    <!-- orange-->
+    <color name="bg_app_title">#FA4300</color>
+    <color name="red_bright">#FA1318</color>
+    <color name="stock_high">@color/red_bright</color>
+
+
+    <color name="guide_point_normal">#9e9ea1</color>
+    <color name="guide_point_focus">#595959</color>
+</resources>

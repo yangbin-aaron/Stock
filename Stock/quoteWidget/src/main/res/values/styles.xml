@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="QwKeyboardButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/keyboard_num_btn_xpadding</item>
+        <item name="android:layout_marginRight">@dimen/keyboard_num_btn_xpadding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/keyboard_but_a</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/keyboard_btn_text_size</item>
+    </style>
+    
+    <style name="QwKeyboardTableButtonStyle" parent="QwKeyboardButtonStyle">
+        <item name="android:layout_span">1</item>
+    </style>
+    
+    <style name="QwKeyboardRowStyle" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/keyboard_num_btn_ypadding</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="QwKeyboardDividerStyle" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:background">@color/keyboard_divider_bg</item>
+    </style>
+    
+    <style name="QwRankListTextStyle" >
+        <item name="android:layout_width">@dimen/combining_view_scroll_column_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+</resources>

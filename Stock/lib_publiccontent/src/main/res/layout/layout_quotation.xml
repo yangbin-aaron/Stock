@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ups_and_downs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ups_and_downs"/>
+
+            <TextView
+                android:id="@+id/ups_and_downs_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ups_and_downs_ratio"/>
+
+            <TextView
+                android:id="@+id/ups_and_downs_ratio_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/highest_and_lowest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ups_and_downs"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/highest_price"/>
+
+            <TextView
+                android:id="@+id/highest_price_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lowest_price"/>
+
+            <TextView
+                android:id="@+id/lowest_price_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/open_price_and_pre_close_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highest_and_lowest"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openPrice"/>
+
+            <TextView
+                android:id="@+id/open_price_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pre_close"/>
+
+            <TextView
+                android:id="@+id/pre_close_price_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/positions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_price_and_pre_close_price"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/holdings"/>
+
+            <TextView
+                android:id="@+id/position_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pre_position"/>
+
+            <TextView
+                android:id="@+id/pre_position_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settlement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/positions"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_settlement"/>
+
+            <TextView
+                android:id="@+id/today_settlement_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pre_settlement"/>
+
+            <TextView
+                android:id="@+id/pre_settlement_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalPositionAndAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settlement"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_hands"/>
+
+            <TextView
+                android:id="@+id/total_hands_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_amount"/>
+
+            <TextView
+                android:id="@+id/total_amount_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lowerLimitAndUpperLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totalPositionAndAmount"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuotationRow.NoBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/raising_limit"/>
+
+            <TextView
+                android:id="@+id/raising_limit_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuotationRow.NoBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/QuotationRowText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/down_limit"/>
+
+            <TextView
+                android:id="@+id/down_limit_num"
+                style="@style/QuotationRowText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="-- --"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

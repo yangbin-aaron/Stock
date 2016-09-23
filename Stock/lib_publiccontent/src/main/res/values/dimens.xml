@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--actionBar的高度-->
+    <dimen name="actionbar_height">48dp</dimen>
+
+    <dimen name="tab_switcher_round_corner">5dp</dimen>
+    
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#90000000">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="141dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eee"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+       <RelativeLayout
+           android:id="@+id/rl_takephoto"
+           android:layout_width="fill_parent"
+           android:layout_height="45dp"
+           android:background="@color/pure_white">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+       </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_album"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/pure_white">
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="从相册选择"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_dission"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pure_white">
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>  

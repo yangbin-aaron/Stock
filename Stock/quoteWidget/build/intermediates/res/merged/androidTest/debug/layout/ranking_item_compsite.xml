@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CombiningViewMoveableLL"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/CompsiteRanking_NewPrice"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:background="#ffff00"
+        android:text="@string/stock_init_value"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/CompsiteRanking_PriceChangePercent"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="@string/stock_init_value"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/CompsiteRanking_PriceChange"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="@string/stock_init_value"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/CompsiteRanking_TotalVolume"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="@string/stock_init_value"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/CompsiteRanking_ChangeHandRadio"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="@string/stock_init_value"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/CompsiteRanking_Current"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:text="@string/stock_init_value" >
+    </TextView>
+
+</LinearLayout>

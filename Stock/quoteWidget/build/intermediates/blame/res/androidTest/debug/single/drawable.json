@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable/common_list_selector_background_focus.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable/common_list_selector_background_focus.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable/common_page_fresh_progress.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable/common_page_fresh_progress.xml"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable/common_list_selector_background.xml",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable/common_list_selector_background.xml"
+    }
+]

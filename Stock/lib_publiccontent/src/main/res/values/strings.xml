@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Stock</string>
+    
+    <string name="key_position">position_key</string>
+    <string name="key_data">position_data</string>
+
+    <string name="account_fangzheng_goldhoding">方正中期</string>
+    <string name="account_cainiu_goldhoding">美牛投资账户</string>
+    <string name="account_nanjiao_goldhoding">南交所账户</string>
+
+    <string name="today_lead_stocks">今日领涨板块</string>
+    <string name="more">更多></string>
+    <string name="the_latest_earnings_rank">最新收益排行</string>
+    <string name="position_gains">持仓收益</string>
+    <string name="position_total_profit">持仓总收益（%1$s）</string>
+
+    <!-- xlistView -->
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    
+    <string name="activate_right_now">立即开启</string>
+    <string name="take_part_in_immediately">立即参加</string>
+
+    <!--全局-->
+    <string name="confirm">确认</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="go_on">继续</string>
+    <string name="ok">好的</string>
+    <string name="no">不了</string>
+    <string name="back">返回</string>
+    <string name="give_up">放弃</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+    <string name="exit_confirm">是否确定退出 ?</string>
+    <string name="submit_again">再次提交</string>
+    <string name="submit_failed">申报失败</string>
+    <string name="submit_success">已申报成功</string>
+    <string name="question">？</string>
+    <string name="commit_certificate">提交认证</string>
+    <string name="complete">完成</string>
+    <string name="tips">温馨提示：</string>
+    <string name="update_immediately">立即更新</string>
+    <string name="update_confirm">退出</string>
+    <string name="NotNow">以后再说</string>
+
+    <!-- tip title -->
+    <string name="phone_num_not_exist">该手机号未注册, 请您先注册</string>
+    <string name="pwd_error_re_input">密码有误 请重新输入</string>
+    <string name="not_login_cant_buy">尚未登录, 无法购买</string>
+    <string name="not_login_tip">请先登录</string>
+    <string name="you_have_not_activated_cainiu_yet">您还没有开启美牛投资账户!</string>
+    <string name="quest_remove_login">是否注销登录?</string>
+    <string name="quest_realname_verify">真实信息是您今后提现的唯一凭证 请先进行实名认证</string>
+
+    <!-- 期货-->
+    <string name="long_position">多头</string>
+    <string name="short_position">空头</string>
+    <string name="long_position_more">多头领先</string>
+    <string name="short_position_more">空头领先</string>
+    <string name="buy_long_position">看多</string>
+    <string name="buy_short_position">看空</string>
+    <string name="buy_long_price">买多价</string>
+    <string name="buy_short_price">买空价</string>
+    <string name="buy_sale_amount">买卖量</string>
+    <string name="flash_chart">闪电图</string>
+    <string name="trend_chart">分时图</string>
+    <string name="kline_chart">K线图</string>
+    <string name="quotation_chart">盘口</string>
+    <string name="one_minute">1分钟</string>
+    <string name="three_minutes">3分钟</string>
+    <string name="five_minutes">5分钟</string>
+    <string name="fifteen_minutes">15分钟</string>
+    <string name="thirty_minutes">30分钟</string>
+    <string name="day_k">日K线</string>
+    <string name="the_deadline_to">本时段持仓时间至%1$s</string>
+    <string name="the_next_deal_time_is">下一个交易时间为%1$s -- %2$s</string>
+    <string name="real_time_strategy">实时策略</string>
+    <string name="close">关闭</string>
+    <string name="investment_has_risk">【投资有风险，入市需谨慎】</string>
+    <string name="volume">成交量 %d</string>
+    <string name="openPrice">开盘</string>
+    <string name="maxPrice">最高</string>
+    <string name="minPrice">最低</string>
+    <string name="closePrice">收盘</string>
+    <string name="pre_close">昨收</string>
+    <string name="do_not_have_trade_permission">您暂时没有开通该交易品的交易权限，开户后即可进行交易</string>
+    <string name="go_to_open_account">去开户</string>
+    <array name="futures_orders_array">
+        <item>成交单</item>
+        <item>委托单</item>
+        <item>结算单</item>
+    </array>
+    <string name="read_historical_quotation_randomly">随机读取某一天历史行情</string>
+    <string name="ups_and_downs">涨跌</string>
+    <string name="ups_and_downs_ratio">涨跌幅</string>
+    <string name="pre_position">昨持仓</string>
+    <string name="today_settlement">今结</string>
+    <string name="pre_settlement">昨结</string>
+    <string name="total_hands">总手</string>
+    <string name="total_amount">金额</string>
+    <string name="raising_limit">涨停</string>
+    <string name="down_limit">跌停</string>
+    <string name="please_active_firm_offer_account">请先激活实盘账户</string>
+    <string name="please_active_score_account">请先激活模拟账户</string>
+    <string name="active">激活</string>
+
+    <string name="activate_account">激活实盘账户</string>
+    <string name="active_score_account">激活积分模拟</string>
+    <string name="active_account">激活实盘账户</string>
+    <string name="gold_ten_financial">金十财经</string>
+    <string name="my_team">我的队伍</string>
+    <string name="live_on_position">持仓直播</string>
+    <string name="positions_detail">持仓详情</string>
+
+    <!-- StockMainActivity & StockSaleActivity -->
+    <string name="select_amount">选择交易本金</string>
+    <string name="stock_information">股票信息</string>
+    <string name="stock_information_name">名称：%1$s</string>
+    <string name="first_price_today">今开</string>
+    <string name="last_price_yesterday">昨收</string>
+    <string name="highest_price">最高</string>
+    <string name="lowest_price">最低</string>
+    <string name="total_volume">总成交量</string>
+    <string name="turnover_rate">换手率(%)</string>
+    <string name="price_earnings_ratio">市盈率</string>
+    <string name="price_earnings_ratio_">市盈率(%)</string>
+    <string name="choose_trade_amount">请选择交易本金</string>
+    <string name="financing">本金 %1$s</string>
+    <string name="purchase_quantity_and_utilization_rate">可买入%1$d股，资金利用率%2$s</string>
+    <string name="position_profit_unit">持仓收益（%1$s）</string>
+    <string name="market_price_sale">市价卖出</string>
+    <string name="contract_renewal">合约续期</string>
+    <string name="margin">保证金</string>
+    <string name="financing_rate">比例</string>
+    <string name="warning_amount">预警金额</string>
+    <string name="close_position_amount">平仓金额</string>
+    <string name="order_information">订单信息</string>
+    <string name="order_number">编号：%1$s</string>
+    <string name="purchase_stock_number">买入股数</string>
+    <string name="purchase_date">买入时间</string>
+    <string name="expiration_date">到期时间</string>
+    <string name="sale_next_trade_day">下个交易日可卖</string>
+
+    <!-- bottom navigation -->
+    <string name="holdings">持仓</string>
+    <string name="finance_purchases">跟买</string>
+    <string name="quotation_hall">行情大厅</string>
+    <string name="quotation">行情</string>
+    <string name="buy">跟买</string>
+    <string name="information">资讯</string>
+    <string name="discovery">发现</string>
+    <string name="account">账户</string>
+
+    <!-- 个人中心-->
+    <string name="account_notlogin_msesage">金融社交平台,只为更简单</string>
+    <string name="account_please_login">还未登录,请先登录!</string>
+    <string name="account_item_profit">总持仓盈利</string>
+    <string name="account_item_left">可用余额</string>
+    <string name="account_bind_ex">绑定实盘账户</string>
+
+    <!--账户-->
+    <string name="login">登录</string>
+    <string name="reg">注册</string>
+    <string name="change_account">切换账户</string>
+    <string name="register_account">注册账户</string>
+    <string name="verify">验证</string>
+    <string name="commit">提交</string>
+    <string name="verify_account_number">验证账号</string>
+    <string name="next_step">下一步</string>
+    <string name="enter_verification_code">请填写验证码完成%1$s</string>
+    <string name="enter_verification_code_hint">输入手机验证码</string>
+    <string name="sent_verification_code">已%1$s向%2$s发送短信</string>
+    <string name="again">再次</string>
+    <string name="enter_phone_number">请输入手机号码</string>
+    <string name="login_password_hint">请输入登录密码</string>
+    <string name="set_password">设置密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="password_tip">6-20位数字、字母组合(特殊字符除外)</string>
+    <string name="again_enter_password">再次输入密码</string>
+    <string name="login_success">登录成功</string>
+    <string name="edit_signature">编辑您的个性签名</string>
+    <string name="register_success_message">注册成功\n为了您的账户安全，请完善信息认证</string>
+    <string name="get_score_by_register">恭喜您\n成功获得100000积分！</string>
+    <string name="instant_view">立即查看</string>
+    <string name="one_key_register">一键注册</string>
+    <string name="login_right_now">已有账号？立即登录</string>
+    <string name="hold_total_earn">总持仓盈亏</string>
+
+    <string name="reg_tip2">《股票T+1参与规则 》</string>
+    <!-- login -->
+    <string name="pass_null">密码为空</string>
+    <string name="not_login">未登录</string>
+    <string name="phone_invalid">您输入的手机号格式有误</string>
+    <string name="open_account">开户</string>
+
+    <!-- 持仓股票买卖状态文字 -->
+    <string name="status_buy_failure">买入失败</string>
+    <string name="status_buy_pending">待处理</string>
+    <string name="status_buy_processing">买处理中</string>
+    <string name="status_buy_submission_success">买已申报</string>
+    <string name="status_holding">持仓中</string>
+    <string name="status_sell_processing">卖处理中</string>
+    <string name="status_sell_submission_success">卖已申报</string>
+    <string name="status_sell_out_success">卖出成功</string>
+    <string name="status_unknown">未知状态</string>
+
+    <!-- network -->
+    <string name="network_error">! 您当前网络不佳, 请稍后再试</string>
+    <string name="network_is_not_available">! 您当前网络不可用, 请检查网络设置</string>
+    <string name="network_session_expire">会话过期 请重新登录</string>
+    <string name="json_parse_error">数据解析错误</string>
+    <string name="network_time_out">网络请求超时</string>
+    <string name="netinfo_2g3g4g">您当前使用的是2G/3G/4G网络</string>
+    <string name="netinfo_wifi">您当前使用的是Wifi</string>
+
+    <!-- 引导页 -->
+    <string name="guide_speed_one">老师实时指导，VIP服务</string>
+    <string name="guide_one_speed">交易品种丰富&#160;·&#160;傻瓜式下单</string>
+    <string name="guide_speed_two">&#160;&#160;&#160;快！快！快！</string>
+    <string name="guide_two_speed">闪电下单&#160;·&#160;一键清仓</string>
+    <string name="guide_speed_three">&#160;&#160;还在买股票？算了吧！</string>
+    <string name="guide_three_speed">买空买多&#160;·&#160;随时买卖&#160;·&#160;十倍收益</string>
+
+
+    <string name="customer_service">客服</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CommonLoadingMoreLL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/CommonLoadingMoreLable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/CommonLoadingMoreLable"
+        android:textColor="@color/CommonLoadingMoreTxtColor" />
+
+    <TextView
+        android:id="@+id/CommonLoadingNoMoreData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/CommonLoadingNoMoreDataLable"
+        android:textColor="@color/CommonLoadingMoreTxtColor"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/CommonLoadingMorePbLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/CommonLoadingMorePb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/common_page_fresh_progress" />
+
+        <TextView
+            android:id="@+id/CommonLoadingMoreRequestDataLable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:text="@string/CommonLondingMoreRequestDataLable"
+            android:textColor="@color/CommonLoadingMoreTxtColor" />
+    </LinearLayout>
+
+</LinearLayout>

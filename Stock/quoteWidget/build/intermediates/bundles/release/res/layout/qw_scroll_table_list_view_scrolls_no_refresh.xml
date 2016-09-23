@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_hsv_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/scroll_table_fixed_title_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" />
+
+        <com.hundsun.quote.widget.QwScrollTableHorizontalScrollView
+            android:id="@+id/scroll_table_moveable_title_hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/scroll_table_moveable_title_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+        </com.hundsun.quote.widget.QwScrollTableHorizontalScrollView>
+    </LinearLayout>
+
+    <com.hundsun.quote.widget.QwLoadingWidget
+        android:id="@+id/CommonRefreshWidgetUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.hundsun.quote.widget.QwScrollTableScrollView
+        android:id="@+id/scroll_table_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_hsv_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/scroll_table_fixed_content_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.hundsun.quote.widget.QwScrollTableHorizontalScrollView
+                android:id="@+id/scroll_table_moveable_content_hsv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/scroll_table_moveable_content_ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </LinearLayout>
+            </com.hundsun.quote.widget.QwScrollTableHorizontalScrollView>
+        </LinearLayout>
+    </com.hundsun.quote.widget.QwScrollTableScrollView>
+
+    <com.hundsun.quote.widget.QwLoadingWidget
+        android:id="@+id/CommonRefreshWidgetDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

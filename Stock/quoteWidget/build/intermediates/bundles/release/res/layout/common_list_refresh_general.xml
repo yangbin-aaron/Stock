@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text=""
+        android:visibility="gone" />
+
+    <com.hundsun.quote.widget.QwGeneralRefreshListWidget
+        android:id="@+id/widget_refresh_list_general"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#ffffff"
+        android:divider="@drawable/common_list_divider"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/common_list_selector_background"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

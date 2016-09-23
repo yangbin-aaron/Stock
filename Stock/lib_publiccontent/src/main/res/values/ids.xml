@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="title_bar" type="id"/>
+    <item name="title1" type="id"/>
+    <item name="title2" type="id"/>
+    <item name="tv_tip" type="id"/>
+    <item name="tv_tips" type="id"/>
+    <item name="tv_tip1" type="id"/>
+    <item name="tv_tip2" type="id"/>
+    <item name="image1" type="id"/>
+    <item name="image2" type="id"/>
+    <item name="image3" type="id"/>
+    <item name="drop1" type="id"/>
+    <item name="drop2" type="id"/>
+    <item name="drop3" type="id"/>
+    <item name="text1" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="text3" type="id"/>
+    <item name="background" type="id"/>
+    <item name="pager" type="id"/>
+    <item name="container" type="id"/>
+    <item name="list_view" type="id"/>
+    <item name="clear" type="id"/>
+    <item name="amount" type="id"/>
+    <item name="money_unit" type="id"/>
+    <item name="tag" type="id"/>
+    <item name="left" type="id"/>
+    <item name="right" type="id"/>
+    <item name="empty" type="id"/>
+    <item name="button_on_empty" type="id"/>
+    <item name="list_header" type="id"/>
+    <item name="edit_text" type="id"/>
+    <item name="images_container" type="id"/>
+    <item name="minus" type="id"/>
+    <item name="plus" type="id"/>
+    <item name="line" type="id"/>
+
+    <!--注册/登录-->
+    <item name="account" type="id"/>
+    <item name="change_account" type="id"/>
+    <item name="forget_password" type="id"/>
+    <item name="phone_number_container" type="id"/>
+    <item name="tv_phone_number" type="id"/>
+    <item name="et_phone_number" type="id"/>
+    <item name="iv_clear_phone_number" type="id"/>
+    <item name="et_password" type="id"/>
+    <item name="iv_clear_password" type="id"/>
+    <item name="login" type="id"/>
+    <item name="confirm" type="id"/>
+    <item name="cb_eye" type="id"/>
+    <item name="cb_agreement" type="id"/>
+    <item name="tv_agreement" type="id"/>
+    <item name="bt_next_step" type="id"/>
+    <item name="tv_zoom_in" type="id"/>
+    <item name="et_verification_code" type="id"/>
+    <item name="tv_count_down" type="id"/>
+
+    <!--绑定手机-->
+    <item name="show_container" type="id"/>
+    <item name="edit_container" type="id"/>
+
+    <!--身份认证-->
+    <item name="name" type="id"/>
+
+    <item name="progress_bar" type="id"/>
+    <item name="upload_bar" type="id"/>
+    <item name="upload_status" type="id"/>
+    <item name="auth_fail" type="id"/>
+    <item name="tv_auth_identity_success" type="id"/>
+
+    <item name="image" type="id"/>
+    <item name="positive" type="id"/>
+    <item name="redo" type="id"/>
+
+
+    <!--提现-->
+    <item name="withdraw" type="id"/>
+    <item name="recharge" type="id"/>
+    <item name="allow_withdraw_amount" type="id"/>
+    <item name="freeze_amount" type="id"/>
+    <item name="withdraw_amount" type="id"/>
+    <item name="receive_amount" type="id"/>
+    <item name="fee" type="id"/>
+
+    <item name="bank_name" type="id"/>
+    <item name="bank_logo" type="id"/>
+    <item name="bank_card_number" type="id"/>
+
+    <!--充值-->
+    <item name="recharge_amount" type="id"/>
+    <item name="tv_transfer_account" type="id"/>
+    <item name="et_transfer_account" type="id"/>
+
+    <!--优惠券-->
+    <item name="rmpt" type="id"/>
+
+    <!--下单配置-->
+    <item name="tv_stop_loss" type="id"/>
+    <item name="tv_stop_profit" type="id"/>
+    <item name="tv_stop_loss_price" type="id"/>
+    <item name="tv_stop_profit_price" type="id"/>
+</resources>

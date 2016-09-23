@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:founditem="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_title_height"
+        android:background="@color/bg_app_title"
+        android:gravity="center"
+        android:text="@string/discovery"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gray_buttom_border" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="15dp"
+            android:text="@string/today_lead_stocks"
+            android:textColor="@color/txt_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_more_stocks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/more"
+            android:textColor="@color/txt_tint_gray"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_main_white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/top1_stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="13dp" >
+
+            <TextView
+                android:id="@+id/top1_stock_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+0.0%"
+                android:textColor="@color/stock_red"
+                android:paddingBottom="3dp"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/top1_stock_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:max="100"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_bar_layer_red"
+                android:secondaryProgress="100" />
+
+            <TextView
+                android:id="@+id/top1_stock_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_gary3"
+                android:paddingTop="3dp"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top2_stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="13dp" >
+
+            <TextView
+                android:id="@+id/top2_stock_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+0.0%"
+                android:textColor="@color/stock_red"
+                android:paddingBottom="3dp"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/top2_stock_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:max="100"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_bar_layer_red"
+                android:secondaryProgress="100" />
+
+            <TextView
+                android:id="@+id/top2_stock_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_gary3"
+                android:paddingTop="3dp"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top3_stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="13dp" >
+
+            <TextView
+                android:id="@+id/top3_stock_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+0.0%"
+                android:textColor="@color/stock_red"
+                android:paddingBottom="3dp"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/top3_stock_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:max="100"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_bar_layer_red"
+                android:secondaryProgress="100" />
+
+            <TextView
+                android:id="@+id/top3_stock_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_gary3"
+                android:paddingTop="3dp"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

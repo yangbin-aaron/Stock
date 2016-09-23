@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- gallery 底部圆点-->
+    <declare-styleable name="FlowIndicator">
+        <attr name="count" format="integer" />
+        <attr name="space" format="dimension" />
+        <attr name="point_size" format="dimension" />
+        <attr name="point_seleted_color" format="color|reference" />
+        <attr name="point_normal_color" format="color|reference" />
+        <attr name="point_radius" format="dimension" />
+    </declare-styleable>
+    
+    <!--圆形头像-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AboutItem">
+        <attr name="about_content" format="reference|string"/>
+        <attr name="about_contentColor" format="reference|color"/>
+        <attr name="about_img_left" format="reference"/>
+        <attr name="about_text" format="reference|string"/>
+        <attr name="about_textColor" format="reference|color"/>
+        <attr name="about_is_show_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="WithdrawalsDetailItem">
+        <attr name="detail_content" format="reference|string"/>
+        <attr name="detail_contentColor" format="reference|color"/>
+        <attr name="detail_text" format="reference|string"/>
+        <attr name="detail_textColor" format="reference|color"/>
+        <attr name="detail_is_show_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FoundItem">
+        <attr name="content" format="reference|string"/>
+        <attr name="contentColor" format="reference|color"/>
+        <attr name="img_left" format="reference"/>
+        <attr name="img_right" format="reference"/>
+        <attr name="found_title" format="reference|string"/>
+        <attr name="found_titleColor" format="reference|color"/>
+        <attr name="is_show_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleBar">
+        <attr name="background" format="reference"/>
+        <attr name="title" format="reference|string"/>
+        <attr name="titleColor" format="reference|color"/>
+        <attr name="titleTextSize" format="reference|dimension"/>
+        <attr name="rightTextSize" format="reference|dimension"/>
+        <attr name="rightDrawable" format="reference" />
+        <attr name="rightText" format="reference|string" />
+        <attr name="rightTextLeftDrawable" format="reference"/>
+        <attr name="hasBackButton" format="boolean" />
+        <attr name="backButtonDrawable" format="reference" />
+        <attr name="backButtonText" format="reference|string"/>
+        <attr name="rightPaddingRight" format="reference|dimension"/>
+        <attr name="leftPadding" format="reference|dimension"/>
+        <attr name="refreshButtonDrawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabSwitcher">
+        <attr name="left_text" format="reference|string" />
+        <attr name="left_text_size" format="dimension" />
+        <attr name="left_text_color" format="reference|color" />
+        <attr name="left_background" format="reference" />
+        <attr name="left_icon" format="reference" />
+        <attr name="left_padding" format="dimension" />
+        <attr name="left_paddingLeft" format="dimension" />
+        <attr name="left_paddingRight" format="dimension" />
+        <attr name="left_paddingTop" format="dimension" />
+        <attr name="left_paddingBottom" format="dimension" />
+        <attr name="left_checked" format="boolean" />
+
+        <attr name="right_text" format="reference|string" />
+        <attr name="right_text_size" format="dimension" />
+        <attr name="right_text_color" format="reference|color" />
+        <attr name="right_background" format="reference" />
+        <attr name="right_icon" format="reference" />
+        <attr name="right_padding" format="dimension" />
+        <attr name="right_paddingLeft" format="dimension" />
+        <attr name="right_paddingRight" format="dimension" />
+        <attr name="right_paddingTop" format="dimension" />
+        <attr name="right_paddingBottom" format="dimension" />
+        <attr name="right_checked" format="boolean" />
+
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="reference|color" />
+
+        <attr name="padding" format="dimension" />
+        <attr name="paddingVertical" format="dimension" />
+        <attr name="paddingHorizontal" format="dimension" />
+
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+
+        <attr name="icon_position" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="left" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+
+        <attr name="checkedPart" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

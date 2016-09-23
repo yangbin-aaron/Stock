@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Stock</string>
-    
-    <string name="quotation">行情</string>
-    <string name="information">资讯</string>
-    <string name="discovery">发现</string>
-    <string name="account">账户</string>
-</resources>

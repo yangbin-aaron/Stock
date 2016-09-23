@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="47dip"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fixTxt01"
+        android:layout_width="@dimen/combining_view_scroll_head_column_width"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fixTxt02"
+        android:layout_width="@dimen/combining_view_scroll_head_column_width"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:textSize="12sp" />
+
+</LinearLayout>

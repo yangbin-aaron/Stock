@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent_black_pop"
+    android:clickable="true"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/btn_holding_advertising_close"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/default_title_height"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="17dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/holding_pop_btn" />
+
+    <ImageView
+        android:id="@+id/iv_line_advertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-11dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/holding_pop_line" />
+
+    <RelativeLayout
+        android:id="@+id/popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="60dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.aaron.myviews.view.AdsBanner
+            android:id="@+id/advertisement_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/holiday_game_popup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/popup_hint_holiday_game" />
+
+            <Button
+                android:id="@+id/btn_take_part_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_close_ad"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/take_part_in_immediately"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

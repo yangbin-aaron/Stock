@@ -1,0 +1,114 @@
+<resources>
+	<dimen name="qii_trend_line_width">1dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="two_line_info_text_size">16sp</dimen>
+    <dimen name="keyboard_eng_btn_xpadding">1dip</dimen>
+    <!-- 英文键盘按钮水平两个按钮间距 -->
+    <dimen name="keyboard_btn_text_size">16sp</dimen>
+    <!-- 键盘按钮字体大小 -->
+    <dimen name="keyboard_num_btn_xpadding">1dip</dimen>
+    <!-- 数字键盘按钮水平两个按钮间距 -->
+    <dimen name="keyboard_num_btn_ypadding">6dip</dimen>
+    <!-- 数字键盘按钮垂直两个按钮间距 -->
+    <dimen name="keyboard_padding_screen">3dip</dimen>
+    <!-- 键盘按钮跟屏幕两侧的间距 -->
+
+
+    <!-- 字号定义 - 极限大 -->
+    <dimen name="font_extreme_largest">60sp</dimen>
+    <!-- 字号定义 - 超大 -->
+    <dimen name="font_super_super_largest">32sp</dimen>
+    <!-- 字号定义- 最大大 -->
+    <dimen name="font_super_largest">28sp</dimen>
+    <!-- 字号定义 - 最大 -->
+    <dimen name="font_largest">24sp</dimen>
+    <!-- 字号定义 - 较大 -->
+    <dimen name="font_larger">22sp</dimen>
+    <!-- 字号定义 - 大 -->
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_large_medium">19sp</dimen>
+    <!-- 字号定义 - 中号 -->
+    <dimen name="font_medium">18sp</dimen>
+    <!-- 字号定义 - 小 -->
+    <dimen name="font_small">16sp</dimen>
+    <!-- 字号定义 - 较小 -->
+    <dimen name="font_smaller">14sp</dimen>
+    <!-- 字号定义 - 最小 -->
+    <dimen name="font_smallest">12sp</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_super_smallest">10sp</dimen>
+    <!-- 字号定义 - 超小 -->
+    <dimen name="font_super_super_smallest">8sp</dimen>
+
+    <!-- 字号定义 - 极限大 -->
+    <dimen name="font_extreme_largest_px">60px</dimen>
+    <!-- 字号定义 - 超大 -->
+    <dimen name="font_super_super_largest_px">32px</dimen>
+    <!-- 字号定义- 最大大 -->
+    <dimen name="font_super_largest_px">28px</dimen>
+    <!-- 字号定义 - 最大 -->
+    <dimen name="font_largest_px">24px</dimen>
+    <!-- 字号定义 - 较大 -->
+    <dimen name="font_larger_px">22px</dimen>
+    <!-- 字号定义 - 大 -->
+    <dimen name="font_large_px">20px</dimen>
+    <dimen name="font_large_medium_px">19px</dimen>
+    <!-- 字号定义 - 中号 -->
+    <dimen name="font_medium_px">18px</dimen>
+    <!-- 字号定义 - 小 -->
+    <dimen name="font_small_px">16px</dimen>
+    <!-- 字号定义 - 较小 -->
+    <dimen name="font_smaller_px">14px</dimen>
+    <!-- 字号定义 - 最小 -->
+    <dimen name="font_smallest_px">12px</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_super_smallest_px">10px</dimen>
+    <!-- 字号定义 - 超小 -->
+    <dimen name="font_super_super_smallest_px">8px</dimen>
+
+    <!-- 分时 -->
+    <dimen name="normalsize">8sp</dimen>
+    <dimen name="space_diejia_height">20dp</dimen>
+    <dimen name="space_chengjiaoliang_height">20dp</dimen>
+    <dimen name="fenshidata_fontheight">15dip</dimen>
+    <dimen name="fenshidata_numwidth">50dip</dimen>
+    <dimen name="fenshidata_datawidth">64dip</dimen>
+    <dimen name="fenshi_price_text_size">9sp</dimen>
+
+    <!-- 分时叠加 pop -->
+    <dimen name="overlap_width">140dp</dimen>
+    <dimen name="overlap_height">53dp</dimen>
+
+    <!-- mingxi -->
+    <dimen name="mingxi_text_size">16sp</dimen>
+
+    <!-- KLine -->
+    <dimen name="kline_M5height">20dp</dimen>
+    <!-- k线M5，M10的高度 -->
+    <dimen name="kline_text_size_s">10sp</dimen>
+    <!-- k线14px字体 -->
+    <dimen name="kline_spacetoamount_height">6dp</dimen>
+    <!-- k线与成交量之间的距离 -->
+    <dimen name="kline_spacetozhibiao_height">18dp</dimen>
+    <!-- 成交量与指标之间的距离 -->
+    <dimen name="kline_text_size">12sp</dimen>
+    <dimen name="smallsize">14sp</dimen>
+    <!-- k线蜡烛的宽度 -->
+    <dimen name="kline_bar_width">5dp</dimen>
+    <dimen name="hs_tabview_height">31dip</dimen>
+    <dimen name="news_list_text_size">16sp</dimen>
+    <!-- 丰富表格列宽 -->
+    <dimen name="combining_view_scroll_column_width">80dp</dimen>
+    <dimen name="combining_view_scroll_head_column_width">95dp</dimen>
+    <!-- horizontal scroll view height -->
+    <dimen name="common_hsv_height">45dp</dimen>
+    <dimen name="navigate_bar_height">28dip</dimen>
+    <!-- 梁浩  18 -->
+    <dimen name="scroll_table_item_height">22dip</dimen>
+    <!-- 黄成 47 -->
+    <dimen name="table_item_height">44dip</dimen>
+    <dimen name="navigate_bar_selected_line_height">2dip</dimen>
+
+</resources>

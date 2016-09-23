@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_found_item"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ImageView
+        android:id="@+id/iv_found_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp" />
+
+    <RelativeLayout
+        android:id="@+id/ry_right_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_found_item">
+
+        <TextView
+            android:id="@+id/tv_title_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="110dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textColor="@color/found_title"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_content_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title_found"
+            android:layout_marginRight="110dp"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@color/found_content"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/iv_new_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/iv_arrow"
+            android:layout_below="@id/tv_title_found"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:src="@drawable/new_img"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_found"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@id/ry_right_found"
+        android:background="@color/transparent_split_line" />
+</RelativeLayout>

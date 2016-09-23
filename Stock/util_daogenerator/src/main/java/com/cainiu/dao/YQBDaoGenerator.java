@@ -7,11 +7,11 @@ import de.greenrobot.daogenerator.Schema;
 public class YQBDaoGenerator {
 
     public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(2, "com.aaron.yqb.greendao");
+        Schema schema = new Schema(2, "com.aaron.myviews.greendao");
 
         addKlineModel(schema);
 
-        new DaoGenerator().generateAll(schema, "app_yqb/src/main/java");
+        new DaoGenerator().generateAll(schema, "lib_publiccontent/src/main/java");
     }
 
     private static void addKlineModel(Schema schema) {

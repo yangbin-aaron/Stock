@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">YQB</string>
+    <string name="default_domain">stock.xjdrxx.com</string>
+    <string name="default_domain_test">meiniu.xhuabu.com</string>
 </resources>

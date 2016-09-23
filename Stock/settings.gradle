@@ -1,1 +1,1 @@
-include ':app_yqb', ':lib_myviews', ':lib_myutils', ':lib_network', ':lib_mvp', ':util_daogenerator', ':lib_hfb_pay', ':lib_pullToRefresh'
+include ':app_yqb', ':lib_publiccontent', ':lib_network', ':util_daogenerator', ':lib_hfb_pay', ':lib_pullToRefresh', ':quoteWidget'

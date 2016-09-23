@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/qw_code_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="46dip"
+        android:layout_margin="4dip"
+        android:textColor="#000000"
+        android:hint="请输入代码"
+        android:singleLine="true" >
+    </EditText>
+
+    <ListView
+        android:id="@+id/qw_stock_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/common_list_divider"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="vertical" >
+    </ListView>
+    
+    <com.hundsun.quote.widget.keyboard.QwKeyboardView
+        android:id="@+id/qw_keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="180dip" >
+    </com.hundsun.quote.widget.keyboard.QwKeyboardView>
+
+</LinearLayout>

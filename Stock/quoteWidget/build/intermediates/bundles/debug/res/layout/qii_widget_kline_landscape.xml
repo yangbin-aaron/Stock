@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.hundsun.quote.widget.QwKlineView
+        android:id="@+id/quote_kline_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="60dip"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dip"
+        android:padding="0dip"
+        android:background="@drawable/keyboard_but_a2"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/quote_kline_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <ListView
+            android:id="@+id/quote_kline_tec"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</merge>

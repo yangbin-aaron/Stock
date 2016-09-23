@@ -10,11 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_yqb" />
             <option value="$PROJECT_DIR$/lib_hfb_pay" />
-            <option value="$PROJECT_DIR$/lib_mvp" />
-            <option value="$PROJECT_DIR$/lib_myutils" />
-            <option value="$PROJECT_DIR$/lib_myviews" />
             <option value="$PROJECT_DIR$/lib_network" />
+            <option value="$PROJECT_DIR$/lib_publiccontent" />
             <option value="$PROJECT_DIR$/lib_pullToRefresh" />
+            <option value="$PROJECT_DIR$/quoteWidget" />
             <option value="$PROJECT_DIR$/util_daogenerator" />
           </set>
         </option>
@@ -23,11 +22,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_yqb" />
             <option value="$PROJECT_DIR$/lib_hfb_pay" />
-            <option value="$PROJECT_DIR$/lib_mvp" />
-            <option value="$PROJECT_DIR$/lib_myutils" />
-            <option value="$PROJECT_DIR$/lib_myviews" />
             <option value="$PROJECT_DIR$/lib_network" />
+            <option value="$PROJECT_DIR$/lib_publiccontent" />
             <option value="$PROJECT_DIR$/lib_pullToRefresh" />
+            <option value="$PROJECT_DIR$/quoteWidget" />
             <option value="$PROJECT_DIR$/util_daogenerator" />
           </set>
         </option>

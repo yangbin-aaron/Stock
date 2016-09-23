@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="bg_gray1">@color/gray1</color>
 
+    <color name="welcome_bg">#FAF9F9</color>
 </resources>

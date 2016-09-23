@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.aaron.myviews.view.MyGallery
+        android:id="@+id/gallery_ads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:soundEffectsEnabled="false" />
+
+    <com.aaron.myviews.view.FlowIndicator
+        android:id="@+id/flow_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="left|bottom"
+        android:paddingBottom="5dp"
+        flow:point_normal_color="#45000000"
+        flow:point_radius="4dp"
+        flow:point_seleted_color="#ffffff"
+        flow:point_size="4dp"
+        flow:space="5dp" />
+</RelativeLayout>
