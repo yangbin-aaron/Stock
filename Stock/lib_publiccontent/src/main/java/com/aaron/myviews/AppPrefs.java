@@ -4,8 +4,12 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
+import com.aaron.myviews.model.gson.NewsNoticeModel;
 import com.aaron.myviews.model.newmodel.FuturesPayOrderData;
+import com.aaron.myviews.utils.SecurityUtil;
 import com.google.gson.Gson;
+
+import java.security.NoSuchAlgorithmException;
 
 public class AppPrefs {
     private static Context mContext;
@@ -102,51 +106,51 @@ public class AppPrefs {
         return mPrefs.getBoolean(key, false);
     }
 
-//    public void closePopWindows(NewsNoticeModel newsNoticeModel) {
-//        StringBuilder homeAdsBuilder = new StringBuilder();
-//        for (int i = 0; i < newsNoticeModel.getNewsNoticeList().size(); i++) {
-//            NewsNoticeModel.New newAds = newsNoticeModel.getNewsNoticeList().get(i);
-//            homeAdsBuilder.append(newAds.getMiddleBanner());
-//        }
-//        String homeAds = null;
-//        try {
-//            homeAds = SecurityUtil.md5Encrypt(homeAdsBuilder.toString());
-//            if (!TextUtils.isEmpty(homeAds)) {
-//                getEditor().putString(Key.ADVERTISING, homeAds).commit();
-//            }
-//        } catch (NoSuchAlgorithmException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
-//    /**
-//     * true显示广告图片，false不显示广告图片
-//     *
-//     * @return
-//     */
-//    public boolean shouldShowPopWindows(NewsNoticeModel newsNoticeModel) {
-//        StringBuilder homeAdsBuilder = new StringBuilder();
-//        for (int i = 0; i < newsNoticeModel.getNewsNoticeList().size(); i++) {
-//            NewsNoticeModel.New newAds = newsNoticeModel.getNewsNoticeList().get(i);
-//            homeAdsBuilder.append(newAds.getMiddleBanner());
-//        }
-//        String homeAds = null;
-//        try {
-//            homeAds = SecurityUtil.md5Encrypt(homeAdsBuilder.toString());
-//            String localHomeAds = mPrefs.getString(Key.ADVERTISING, "");
-//            if (!TextUtils.isEmpty(localHomeAds)) {
-//                if (!homeAds.equals(localHomeAds)) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            return true;
-//        } catch (NoSuchAlgorithmException e) {
-//            e.printStackTrace();
-//            return false;
-//        }
-//    }
+    public void closePopWindows(NewsNoticeModel newsNoticeModel) {
+        StringBuilder homeAdsBuilder = new StringBuilder();
+        for (int i = 0; i < newsNoticeModel.getNewsNoticeList().size(); i++) {
+            NewsNoticeModel.New newAds = newsNoticeModel.getNewsNoticeList().get(i);
+            homeAdsBuilder.append(newAds.getMiddleBanner());
+        }
+        String homeAds = null;
+        try {
+            homeAds = SecurityUtil.md5Encrypt(homeAdsBuilder.toString());
+            if (!TextUtils.isEmpty(homeAds)) {
+                getEditor().putString(Key.ADVERTISING, homeAds).commit();
+            }
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * true显示广告图片，false不显示广告图片
+     *
+     * @return
+     */
+    public boolean shouldShowPopWindows(NewsNoticeModel newsNoticeModel) {
+        StringBuilder homeAdsBuilder = new StringBuilder();
+        for (int i = 0; i < newsNoticeModel.getNewsNoticeList().size(); i++) {
+            NewsNoticeModel.New newAds = newsNoticeModel.getNewsNoticeList().get(i);
+            homeAdsBuilder.append(newAds.getMiddleBanner());
+        }
+        String homeAds = null;
+        try {
+            homeAds = SecurityUtil.md5Encrypt(homeAdsBuilder.toString());
+            String localHomeAds = mPrefs.getString(Key.ADVERTISING, "");
+            if (!TextUtils.isEmpty(localHomeAds)) {
+                if (!homeAds.equals(localHomeAds)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            return true;
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
 
     /**
      * 设置应用是否运行在后台

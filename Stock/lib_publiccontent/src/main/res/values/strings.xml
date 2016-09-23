@@ -19,9 +19,6 @@
     <string name="pull_to_refresh_footer_release_label">松开后加载</string>
     <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
     
-    <string name="activate_right_now">立即开启</string>
-    <string name="take_part_in_immediately">立即参加</string>
-
     <!--全局-->
     <string name="confirm">确认</string>
     <string name="positive">确定</string>
@@ -230,4 +227,26 @@
 
 
     <string name="customer_service">客服</string>
+
+    <!-- 大厅 -->
+    <string name="hall_profit">累计帮用户赚到\n%1$s元</string>
+    <string name="hall_amount">累计提供资金\n%1$s元</string>
+    <string name="hall_coming_soon">敬请期待</string>
+    <string name="futures_buy">%1$s买入</string>
+    <string name="futures_holding">%1$s持仓</string>
+    <string name="newest_profit">最新盈利</string>
+    <string name="today_unable_to_deal">今日禁买</string>
+    <string name="simulated_practice">模拟练习场</string>
+    <string name="be_master_by_practice">免费练手成大牛</string>
+    <string name="get_cash_free">免费领现金</string>
+    <string name="get_cash_easy">轻点指尖秒入账</string>
+    <string name="holiday_game">节假日历史盘</string>
+    <string name="current_profit_text">目前盈利</string>
+    <string name="get_award_on_list">怒上排行奖现金</string>
+    <string name="know_about_product">了解盈期宝</string>
+    <string name="click_to_know_about_product">点击了解盈期宝</string>
+    <string name="luck_turntable">幸运大转盘</string>
+    <string name="take_part_in_immediately">立即参加</string>
+    <string name="activate_right_now">立即开启</string>
+    <string name="account_security"><Data><![CDATA[账户资金安全由<font color=#EEA90B>人保财险</font>承保]]></Data></string>
 </resources>

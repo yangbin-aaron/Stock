@@ -6,7 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.text.TextUtils;
 
-import com.aaron.myviews.model.newmodel.Channel;
+import com.aaron.myviews.model.newmodel.local.Channel;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

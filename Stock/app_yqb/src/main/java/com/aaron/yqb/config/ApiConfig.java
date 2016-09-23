@@ -2,7 +2,7 @@ package com.aaron.yqb.config;
 
 import android.text.TextUtils;
 
-import com.aaron.yqb.local.Environment;
+import com.aaron.yqb.model.local.Environment;
 
 /**
  * API接口

@@ -1,14 +1,25 @@
 package com.aaron.myviews.view;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
+import android.widget.Gallery;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.aaron.myviews.R;
+import com.aaron.myviews.model.gson.NewsNoticeModel;
+import com.aaron.myviews.transformation.RoundedCornersTransformation;
+import com.aaron.myviews.utils.DisplayUtil;
+import com.squareup.picasso.Picasso;
+
+import java.util.List;
 
 public class AdsBanner extends FrameLayout {
     private static final float ASPECTRATIO = 0.7446f; //广告图片宽高比
@@ -68,44 +79,49 @@ public class AdsBanner extends FrameLayout {
         }
     }
 
-//    public static class AdsAdapter extends ArrayAdapter<NewsNoticeModel.New> {
-//        private boolean hasFillet = false;
-//
-//        public AdsAdapter(Context context, boolean hasFillet) {
-//            super(context, 0);
-//            this.hasFillet = hasFillet;
-//        }
-//
-//        public void setNewList(List<NewsNoticeModel.New> newList) {
-//            for (int i = 0; i < newList.size(); i++) {
-//                add(newList.get(i));
-//            }
-//        }
-//
-//        @Override
-//        public View getView(int position, View convertView, ViewGroup parent) {
-//            ImageView imageView = (ImageView) convertView;
-//            if (imageView == null) {
-//                imageView = new ImageView(getContext());
-//                imageView.setLayoutParams(new Gallery.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
-//                        LinearLayout.LayoutParams.MATCH_PARENT));
-//                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-//                imageView.setAdjustViewBounds(false);
-//                imageView.setBackgroundResource(R.color.transparent);
-//            }
-//            NewsNoticeModel.New ad = getItem(position);
-//            String imageUrl = ad.getFullMiddleBanner() ;
-//            if (!TextUtils.isEmpty(imageUrl)) {
-//                if (hasFillet) {
-//                    Picasso.with(getContext()).load(imageUrl)
-//                            .placeholder(R.drawable.ads_placeholder)
-//                            .transform(new RoundedCornersTransformation((int) DisplayUtil.convertDp2Px(mContext,c5), 0))
-//                            .into(imageView);
-//                } else {
-//                    Picasso.with(getContext()).load(imageUrl).into(imageView);
-//                }
-//            }
-//            return imageView;
-//        }
-//    }
+    public static class AdsAdapter extends ArrayAdapter<NewsNoticeModel.New> {
+        private boolean hasFillet = false;
+
+        private String mFullUrl = "";
+        private Context mContext;
+
+        public AdsAdapter(Context context, boolean hasFillet, String fullUrl) {
+            super(context, 0);
+            this.mContext = context;
+            this.mFullUrl = fullUrl;
+            this.hasFillet = hasFillet;
+        }
+
+        public void setNewList(List<NewsNoticeModel.New> newList) {
+            for (int i = 0; i < newList.size(); i++) {
+                add(newList.get(i));
+            }
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            ImageView imageView = (ImageView) convertView;
+            if (imageView == null) {
+                imageView = new ImageView(getContext());
+                imageView.setLayoutParams(new Gallery.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.MATCH_PARENT));
+                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+                imageView.setAdjustViewBounds(false);
+                imageView.setBackgroundResource(R.color.transparent);
+            }
+            NewsNoticeModel.New ad = getItem(position);
+            String imageUrl = mFullUrl + ad.getMiddleBanner();
+            if (!TextUtils.isEmpty(imageUrl)) {
+                if (hasFillet) {
+                    Picasso.with(getContext()).load(imageUrl)
+                            .placeholder(R.drawable.ads_placeholder)
+                            .transform(new RoundedCornersTransformation((int) DisplayUtil.convertDp2Px(mContext, 5), 0))
+                            .into(imageView);
+                } else {
+                    Picasso.with(getContext()).load(imageUrl).into(imageView);
+                }
+            }
+            return imageView;
+        }
+    }
 }

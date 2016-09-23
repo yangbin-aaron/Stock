@@ -68,12 +68,12 @@
         "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable-hdpi-v4/keyboard_but_delete_pressed.9.png"
     },
     {
-        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/keyboard_but_a1.9.png",
-        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable-hdpi-v4/keyboard_but_a1.9.png"
-    },
-    {
         "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/keyboard_but_a2.9.png",
         "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable-hdpi-v4/keyboard_but_a2.9.png"
+    },
+    {
+        "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/keyboard_but_a1.9.png",
+        "source": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/bundles/debug/res/drawable-hdpi-v4/keyboard_but_a1.9.png"
     },
     {
         "merged": "/Users/yangbin/AndroidSpace/Stock/Stock/quoteWidget/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/common_column_header_default.png",

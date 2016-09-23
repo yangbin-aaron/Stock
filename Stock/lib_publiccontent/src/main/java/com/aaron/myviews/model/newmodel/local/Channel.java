@@ -1,4 +1,4 @@
-package com.aaron.myviews.model.newmodel;
+package com.aaron.myviews.model.newmodel.local;
 
 public class Channel {
 

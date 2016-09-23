@@ -120,7 +120,7 @@ public class ServerTime {
                             saveServerTime(response.getData());
                         }
                     }
-                }).errorListener(new SimpleErrorListener(true))
+                }).errorListener(new SimpleErrorListener(false))
                 .create().send();
     }
 

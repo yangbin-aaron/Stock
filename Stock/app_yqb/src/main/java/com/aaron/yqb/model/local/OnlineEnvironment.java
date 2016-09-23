@@ -1,4 +1,4 @@
-package com.aaron.yqb.local;
+package com.aaron.yqb.model.local;
 
 import android.text.TextUtils;
 

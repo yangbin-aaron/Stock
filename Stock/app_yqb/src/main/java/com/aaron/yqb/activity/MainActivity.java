@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import com.aaron.myviews.adapters.MainPagerAdapter;
 import com.aaron.myviews.dialog.SimpleAlertDialog;
-import com.aaron.myviews.json.NewsNoticeModel;
+import com.aaron.myviews.model.gson.NewsNoticeModel;
 import com.aaron.myviews.view.AdsBanner;
 import com.aaron.network.IntentConfig;
 import com.aaron.yqb.R;

@@ -1,4 +1,4 @@
-package com.aaron.yqb.local;
+package com.aaron.yqb.model.local;
 
 import android.text.TextUtils;
 
@@ -101,7 +101,7 @@ public class Environment {
         }
 
         // book_text_ipadress
-        environment = new Environment("测式环境", TYPE_RELEASE, App.getAppContext().getString(R.string.default_domain_test));
+//        environment = new Environment("测式环境", TYPE_RELEASE, App.getAppContext().getString(R.string.default_domain_test));
 
         Environment.saveEnvironment(environment);
         return environment;

@@ -78,4 +78,30 @@
     <style name="NoTitleTheme" parent="android:Theme.NoTitleBar">
         <!-- <item name="android:windowNoTitle">true</item>除去title android:Theme.Dialog-->
     </style>
+
+    <style name="HeaderTitle" parent="AppTheme.Widget.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="HeaderTitle.Subtitle">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="ProgressDialog" parent="android:Theme.Dialog">
+        <!--  <item name="android:indeterminateDrawable">@drawable/ic_circle_progress</item>  -->
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+        <item name="android:background">#00000000</item>
+    </style>
 </resources>

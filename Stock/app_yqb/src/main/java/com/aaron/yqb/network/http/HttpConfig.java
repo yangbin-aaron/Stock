@@ -1,7 +1,7 @@
 package com.aaron.yqb.network.http;
 
 
-import com.aaron.yqb.local.Environment;
+import com.aaron.yqb.model.local.Environment;
 
 public class HttpConfig {
 	public static final String HTTP_HEAD_STR					= "http://";

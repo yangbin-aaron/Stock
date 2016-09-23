@@ -94,4 +94,9 @@
 
     <color name="guide_point_normal">#9e9ea1</color>
     <color name="guide_point_focus">#595959</color>
+
+    <!-- 大厅涨跌绿红灰-->
+    <color name="quotation_green">#08BA42</color>
+    <color name="quotation_red">#FA4200</color>
+    <color name="quotation_gray">#999999</color>
 </resources>
