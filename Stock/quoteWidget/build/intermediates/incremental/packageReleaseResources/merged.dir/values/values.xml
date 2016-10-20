@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CommonLoadingMoreTxtColor">#a4a4a4</color>
+    <color name="KEYBOARD_BUTTON">#FF373737</color>
+    <color name="app_accordion_background">#ffeaeaea</color>
+    <color name="app_navi_bar_font_color">#ff494949</color>
+    <color name="app_navi_bar_font_color_selected">#ffe50b10</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="combining_view_moveable_lv_splite">#ffeaeaea</color>
+    <color name="common_hsv_bg">#ebebeb</color>
+    <color name="common_hsv_red_bg">#ff0000</color>
+    <color name="common_hsv_splite_line_bg">#9b9b9b</color>
+    <color name="common_hsv_splite_line_bg_2">#aaaaaa</color>
+    <color name="common_hsv_tv_default">#666666</color>
+    <color name="common_hsv_tv_selected">#e50b10</color>
+    <color name="common_list_bg">#ffffffff</color>
+    <color name="common_list_bg_black">#00000000</color>
+    <color name="common_list_bg_gold">#b89766</color>
+    <color name="common_list_bg_white">#00ff0000</color>
+    <color name="common_list_fresh_foot_font">#cccccc</color>
+    <color name="common_list_fresh_header_font">#cccccc</color>
+    <color name="common_list_gradient_end">#e4e4e4</color>
+    <color name="common_list_gradient_start">#e4e4e4</color>
+    <color name="common_list_item_select_bg">#aaaaaa</color>
+    <color name="common_list_stroke">#e4e4e4</color>
+    <color name="common_list_transparent">#00000000</color>
+    <color name="complex_ranking_code">#aaaaaa</color>
+    <color name="complex_ranking_name">#666666</color>
+    <color name="complex_ranking_stock_green">#00ff00</color>
+    <color name="complex_ranking_stock_red">#e50b10</color>
+    <color name="input_content_static_color">#7c7c7c</color>
+    <color name="input_content_static_value_font_color">#000000</color>
+    <color name="keyboard_bg">#ff878A88</color>
+    <color name="keyboard_divider_bg">#ffd3d3d3</color>
+    <color name="keyboard_pressed_bg">#ffd2d2d2</color>
+    <color name="layout_normal">#242424</color>
+    <color name="layout_press">#969696</color>
+    <color name="list_even_line">#ff141514</color>
+    <color name="list_odd_line">#ff080808</color>
+    <color name="quote_bar_label">#ff7d7d7d</color>
+    <color name="quote_trend_background_color">#fff8f8f8</color>
+    <color name="qw_listview_divider">#ffeaeaea</color>
+    <color name="rank_tv">#ff494949</color>
+    <color name="rank_volume_color">#ff0000ff</color>
+    <color name="red">#ffff0000</color>
+    <color name="refresh_list_widget_bg">#bdbdbd</color>
+    <color name="solid_black">#000000</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_dark_gray">#ffa9a9a9</color>
+    <color name="solid_dim_gray">#ff696969</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="solid_yellow_land">#ff8a360f</color>
+    <color name="stock_amount_color">#ff828282</color>
+    <color name="stock_code_color">#ff8f8f8f</color>
+    <color name="stock_name_color">#ff696969</color>
+    <color name="stock_price_color">#ffd5d5d5</color>
+    <color name="textview_link_color">#ff0090ff</color>
+    <color name="title_mid">#ffd1cfd0</color>
+    <color name="trans_comment_content_font_color">#414141</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="combining_view_scroll_column_width">80dp</dimen>
+    <dimen name="combining_view_scroll_head_column_width">95dp</dimen>
+    <dimen name="common_hsv_height">45dp</dimen>
+    <dimen name="fenshi_price_text_size">9sp</dimen>
+    <dimen name="fenshidata_datawidth">64dip</dimen>
+    <dimen name="fenshidata_fontheight">15dip</dimen>
+    <dimen name="fenshidata_numwidth">50dip</dimen>
+    <dimen name="font_extreme_largest">60sp</dimen>
+    <dimen name="font_extreme_largest_px">60px</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_large_medium">19sp</dimen>
+    <dimen name="font_large_medium_px">19px</dimen>
+    <dimen name="font_large_px">20px</dimen>
+    <dimen name="font_larger">22sp</dimen>
+    <dimen name="font_larger_px">22px</dimen>
+    <dimen name="font_largest">24sp</dimen>
+    <dimen name="font_largest_px">24px</dimen>
+    <dimen name="font_medium">18sp</dimen>
+    <dimen name="font_medium_px">18px</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_small_px">16px</dimen>
+    <dimen name="font_smaller">14sp</dimen>
+    <dimen name="font_smaller_px">14px</dimen>
+    <dimen name="font_smallest">12sp</dimen>
+    <dimen name="font_smallest_px">12px</dimen>
+    <dimen name="font_super_largest">28sp</dimen>
+    <dimen name="font_super_largest_px">28px</dimen>
+    <dimen name="font_super_smallest">10sp</dimen>
+    <dimen name="font_super_smallest_px">10px</dimen>
+    <dimen name="font_super_super_largest">32sp</dimen>
+    <dimen name="font_super_super_largest_px">32px</dimen>
+    <dimen name="font_super_super_smallest">8sp</dimen>
+    <dimen name="font_super_super_smallest_px">8px</dimen>
+    <dimen name="hs_tabview_height">31dip</dimen>
+    <dimen name="keyboard_btn_text_size">16sp</dimen>
+    <dimen name="keyboard_eng_btn_xpadding">1dip</dimen>
+    <dimen name="keyboard_num_btn_xpadding">1dip</dimen>
+    <dimen name="keyboard_num_btn_ypadding">6dip</dimen>
+    <dimen name="keyboard_padding_screen">3dip</dimen>
+    <dimen name="kline_M5height">20dp</dimen>
+    <dimen name="kline_bar_width">5dp</dimen>
+    <dimen name="kline_spacetoamount_height">6dp</dimen>
+    <dimen name="kline_spacetozhibiao_height">18dp</dimen>
+    <dimen name="kline_text_size">12sp</dimen>
+    <dimen name="kline_text_size_s">10sp</dimen>
+    <dimen name="mingxi_text_size">16sp</dimen>
+    <dimen name="navigate_bar_height">28dip</dimen>
+    <dimen name="navigate_bar_selected_line_height">2dip</dimen>
+    <dimen name="news_list_text_size">16sp</dimen>
+    <dimen name="normalsize">8sp</dimen>
+    <dimen name="overlap_height">53dp</dimen>
+    <dimen name="overlap_width">140dp</dimen>
+    <dimen name="qii_trend_line_width">1dip</dimen>
+    <dimen name="scroll_table_item_height">22dip</dimen>
+    <dimen name="smallsize">14sp</dimen>
+    <dimen name="space_chengjiaoliang_height">20dp</dimen>
+    <dimen name="space_diejia_height">20dp</dimen>
+    <dimen name="table_item_height">44dip</dimen>
+    <dimen name="two_line_info_text_size">16sp</dimen>
+    <item name="Key_Widget_ConvertView_Tag" type="id"/>
+    <item name="Key_Widget_NavigateView_ImageView_Id" type="id"/>
+    <item name="Key_Widget_NavigateView_TextView_Id" type="id"/>
+    <item name="Key_Widget_ScrolListView_Tag" type="id"/>
+    <item name="scroll_table_down_empty_id" type="id"/>
+    <string name="CommonLoadingMoreLable">加载更多....</string>
+    <string name="CommonLoadingNoMoreDataLable">无更多数据....</string>
+    <string name="CommonLoadingRequestNoDataLable">无数据....</string>
+    <string name="CommonLondingMoreRequestDataLable">正在请求数据.....</string>
+    <string name="LoadingData">正在获取数据,请稍后 ………</string>
+    <string name="PullDownTurnPage">当前第1页,下拉刷新数据</string>
+    <string name="PullUpTurnPage">当前第1页,上拉翻到第2页</string>
+    <string name="PushToRefreshPullLable">拉动去翻页</string>
+    <string name="PushToRefreshRefreshingLabel">数据正在加载中....</string>
+    <string name="PushToRefreshReleaseLabel">松开翻页</string>
+    <string name="PushToRefreshReleaseLabel_current_page">当前第</string>
+    <string name="PushToRefreshReleaseLabel_down_turn_page">页，下拉翻页</string>
+    <string name="PushToRefreshReleaseLabel_down_turn_to_page">页，松开翻到第</string>
+    <string name="PushToRefreshReleaseLabel_page">页</string>
+    <string name="PushToRefreshReleaseLabel_top_turn_page">页，上拉翻页</string>
+    <string name="PushToRefreshReleaseLabel_top_turn_to_page">页，松开翻到第</string>
+    <string name="PushToRefreshTapLable">tab</string>
+    <string name="ReleaseDownTurnPage">当前第1页,松开刷新数据</string>
+    <string name="ReleaseUpTurnPage">当前第1页,松开获取第2页数据</string>
+    <string name="app_name">QuoteWidget</string>
+    <string name="common_description"/>
+    <string name="common_refresh_splite_page_lv_exception_data">查询数据异常！</string>
+    <string name="common_refresh_splite_page_lv_from_release_to_done_clew">由松开刷新状态转变到done状态</string>
+    <string name="common_refresh_splite_page_lv_from_release_to_pulls_refresh_clew">由松开刷新状态转变到下拉刷新状态</string>
+    <string name="common_refresh_splite_page_lv_has_first_page_data">已经是第一页数据了！</string>
+    <string name="common_refresh_splite_page_lv_has_last_page_data">已经是最后一页数据了！</string>
+    <string name="common_refresh_splite_page_lv_last_refresh_clew">最近更新</string>
+    <string name="common_refresh_splite_page_lv_next_pulls_fresh_clew">下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_previous_time_fresh_clew">上次更新</string>
+    <string name="common_refresh_splite_page_lv_pulls_fresh_clew">下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_pulls_fresh_tag_clew">当前状态，下拉刷新</string>
+    <string name="common_refresh_splite_page_lv_record_position_when_moving_clew">在move时候记录下位置</string>
+    <string name="common_refresh_splite_page_lv_refreshing_clew">正在刷新....</string>
+    <string name="common_refresh_splite_page_lv_refreshing_tag_clew">当前状态，正在刷新....</string>
+    <string name="common_refresh_splite_page_lv_release_fresh_clew">松开刷新</string>
+    <string name="common_refresh_splite_page_lv_release_fresh_tag_clew">当前状态，松开刷新</string>
+    <string name="input_content_clew">还可以输入</string>
+    <string name="input_content_clew_40">128</string>
+    <string name="input_content_clew_word">个字符</string>
+    <string name="input_content_clew_word_more">输入内容已超出</string>
+    <string name="keyboard_eng_123">123</string>
+    <string name="keyboard_num_0">0</string>
+    <string name="keyboard_num_000">000</string>
+    <string name="keyboard_num_002">002</string>
+    <string name="keyboard_num_1">1</string>
+    <string name="keyboard_num_2">2</string>
+    <string name="keyboard_num_3">3</string>
+    <string name="keyboard_num_300">300</string>
+    <string name="keyboard_num_4">4</string>
+    <string name="keyboard_num_5">5</string>
+    <string name="keyboard_num_6">6</string>
+    <string name="keyboard_num_600">600</string>
+    <string name="keyboard_num_601">601</string>
+    <string name="keyboard_num_7">7</string>
+    <string name="keyboard_num_8">8</string>
+    <string name="keyboard_num_9">9</string>
+    <string name="keyboard_num_abc">abc</string>
+    <string name="keyboard_num_clear">清空</string>
+    <string name="keyboard_num_hide">隐藏</string>
+    <string name="keybord_delete">删除</string>
+    <string name="keybord_eng_enter">Enter</string>
+    <string name="keybord_num_enter">确认</string>
+    <string name="max_input_length_clew">已满</string>
+    <string name="share_input_content_hint">请在这里输入要分享的内容</string>
+    <string name="stock_init_value">--</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="QwKeyboardButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/keyboard_num_btn_xpadding</item>
+        <item name="android:layout_marginRight">@dimen/keyboard_num_btn_xpadding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/keyboard_but_a</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/keyboard_btn_text_size</item>
+    </style>
+    <style name="QwKeyboardDividerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:background">@color/keyboard_divider_bg</item>
+    </style>
+    <style name="QwKeyboardRowStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/keyboard_num_btn_ypadding</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="QwKeyboardTableButtonStyle" parent="QwKeyboardButtonStyle">
+        <item name="android:layout_span">1</item>
+    </style>
+    <style name="QwRankListTextStyle">
+        <item name="android:layout_width">@dimen/combining_view_scroll_column_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+</resources>
