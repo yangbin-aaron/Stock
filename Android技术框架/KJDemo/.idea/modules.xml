@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KJDemo.iml" filepath="$PROJECT_DIR$/KJDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_kjdemo/app_kjdemo.iml" filepath="$PROJECT_DIR$/app_kjdemo/app_kjdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_myutils/lib_myutils.iml" filepath="$PROJECT_DIR$/lib_myutils/lib_myutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_myviews/lib_myviews.iml" filepath="$PROJECT_DIR$/lib_myviews/lib_myviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" />
+    </modules>
+  </component>
+</project>

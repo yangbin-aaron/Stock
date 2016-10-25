@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+    defaultConfig {
+        applicationId "com.aaron.kjdemo"
+        minSdkVersion 11
+        targetSdkVersion 24
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../../kjdemo.keystore")
+            storePassword "123456kj"
+            keyAlias "kjdemo"
+            keyPassword "123456kj"
+        }
+        release {
+            storeFile file("../../kjdemo.keystore")
+            storePassword "123456kj"
+            keyAlias "kjdemo"
+            keyPassword "123456kj"
+        }
+    }
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    productFlavors {
+
+        flavorDimensions "package", "channel"
+
+        kilimanjaro {
+            dimension "package"
+            applicationId "com.aaron.kjdemodev"
+            versionName '1.1.0'
+            versionCode 110
+            manifestPlaceholders = [
+                    UMENG_APPKEY: "57bc13d267e******ae002718"
+            ]
+        }
+
+        android {
+            dimension "channel"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "kl_android"]
+        }
+    }
+}
+
+dependencies {
+    compile project(':lib_myutils')
+    compile project(':lib_myviews')
+    compile project(':lib_network')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+}
